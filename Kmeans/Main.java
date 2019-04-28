@@ -31,7 +31,7 @@ public class Main
 		{
 		    m2 = getRandom(dataset);    
 		}
-		else if(m1 > m2)                        //if my mean 1 is greater than mean 2
+		if(m1 > m2)                        //if my mean 1 is greater than mean 2
 		{
 		    int a = m1;
 		    m1 = m2;
@@ -67,15 +67,16 @@ public class Main
     		}
     		Oldm1 = m1;
     		Oldm2 = m2;
-    		for(int i=0; i<len; i++)                //filling null 
+    		//System.out.println("\nOldm1 = " + Oldm1 + " " +" Oldm2 = " + Oldm2);
+    		for(int i=0; i<len; i++)                //sum
     		{
     		    summ1 = summ1 + c1[i];
     		    summ2 = summ2 + c2[i];
     		}
-    		m1 = (summ1/k);                         //mean of centroid 1
-    		m2 = (summ2/j);                       //mean of centroid 2
+    		m1 = Math.round(summ1/k);                         //mean of centroid 1
+    		m2 = Math.round(summ2/j);                       //mean of centroid 2
     		System.out.println("\n\nm1 = " + m1 + " " +" m2 = " + m2);
-    		for(int i=0; i<len; i++)                //calculated mean for clusters 1 and 2
+    		for(int i=0; i<len; i++)                //filling null
     		{
     		    c1[i]=0;
     		    c2[i]=0;
