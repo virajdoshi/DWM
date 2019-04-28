@@ -67,7 +67,7 @@ public class Main
     		}
     		Oldm1 = m1;
     		Oldm2 = m2;
-    		for(int i=0; i<len; i++)                //calculating mean for clusters 1 and 2
+    		for(int i=0; i<len; i++)                //filling null 
     		{
     		    summ1 = summ1 + c1[i];
     		    summ2 = summ2 + c2[i];
