@@ -65,8 +65,8 @@ public class Main
         {
             System.out.println("Node "+i+" Hub = "+U[i]+" Authority = "+V[i]);    //listing the Hub and Authorithies for nodes For k=1
         }
-        bubbleSort(U);
-        bubbleSort(V);
+        //bubbleSort(U);
+        //bubbleSort(V);
         while(z!=k)
         {
             for(int i=0; i<nodes; i++)
@@ -85,15 +85,16 @@ public class Main
             {
                 System.out.println("Node "+i+" Hub = "+U[i]+" Authority = "+V[i]);    //listing the Hub and Authorithies for nodes For kth
             }
-            bubbleSort(U);
-            bubbleSort(V);
+            //bubbleSort(U);
+            //bubbleSort(V);
         }
-        /*for(int i = 0; i<nodes; i++)
+        System.out.println("");
+        for(int i = 0; i<nodes; i++)
         {
             if(U[i] > V[i])
                 System.out.println("Node "+i+" is Hub since "+U[i]+" > "+V[i]);
             else
                 System.out.println("Node "+i+" is Authority since "+U[i]+" < "+V[i]);
-        }*/
+        }
     }
 }
