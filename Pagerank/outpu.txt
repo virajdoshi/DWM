@@ -1,0 +1,33 @@
+Enter number of webpages: 
+4 
+Enter the path of one webpage to another webpage by using 1 for path and 0 for no path
+0 1 1 0
+0 0 0 1
+1 1 0 1
+0 0 1 0
+Total Number of Nodes: 4
+Initial Pagerank: 0.25
+
+Initial Pagerank values for all the nodes 0th iterations: 
+The pagerank of 0 is:  0.25
+The pagerank of 1 is:  0.25
+The pagerank of 2 is:  0.25
+The pagerank of 3 is:  0.25
+
+After 1 iterations:
+The pagerank of 0 is:  0.08333333333333333
+The pagerank of 1 is:  0.20833333333333331
+The pagerank of 2 is:  0.375
+The pagerank of 3 is:  0.3333333333333333
+
+After 2 iterations:
+The pagerank of 0 is:  0.125
+The pagerank of 1 is:  0.16666666666666666
+The pagerank of 2 is:  0.375
+The pagerank of 3 is:  0.3333333333333333
+
+Final Pagerank is: 
+The pagerank of 0 is:  0.25625000000000003
+The pagerank of 1 is:  0.2916666666666667
+The pagerank of 2 is:  0.46875
+The pagerank of 3 is:  0.43333333333333335
